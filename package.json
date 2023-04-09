@@ -6,6 +6,7 @@
     "main": "ts-node --esm ./src/main.ts"
   },
   "devDependencies": {
+    "@types/node": "^18.15.11",
     "esbuild": "^0.17.12",
     "prettier": "^2.8.6",
     "ts-node": "^10.9.1",
