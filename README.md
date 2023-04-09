@@ -1,10 +1,14 @@
-# typescript-template
+# template-esm2022-typescript
 
 ## Dependencies
 
 ```shell
+npm i -D typescript
+npm i -D ts-node
+npm i -D @types/node
 npm i -D prettier
 npm i -D esbuild
+tsc --init
 ```
 
 ## Guides
