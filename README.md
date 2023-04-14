@@ -22,3 +22,5 @@ https://prettier.io/docs/en/configuration.html
 https://prettier.io/docs/en/ignore.html
 
 https://zod.dev/?id=basic-usage
+
+https://medium.com/@eugenkiss/dont-use-semicolons-in-typescript-474ccfe4bdb3
