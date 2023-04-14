@@ -4,15 +4,27 @@ getAnime()
   .then((r) => console.log(r))
   .catch((e) => console.log(`🟥 ${JSON.stringify(e)}`));
 
-const object1 = {
-  prop: 'exists',
+const fruits: Record<string, number> = {
+  apple: 12,
+  '🍌': 11,
+  carrot: 10,
+  // dragon: undefined, Type 'undefined' is not assignable
 };
 
-console.log(Object.hasOwn(object1, 'prop'));
-// true
+console.log('total key:', Object.keys(fruits).length);
 
-console.log(Object.hasOwn(object1, 'toString'));
-// false
+if (fruits.apple) {
+  console.log('apple exists');
+}
 
-console.log(Object.hasOwn(object1, 'undeclaredPropertyValue'));
-// false
+if (fruits['🍌']) {
+  console.log('🍌 exists');
+}
+
+if (Object.hasOwn(fruits, 'carrot')) {
+  console.log('carrot exists');
+}
+
+if (!fruits.dragon) {
+  console.log('dragon does not exist');
+}
