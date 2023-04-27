@@ -1,4 +1,4 @@
-# template-esm2022-typescript
+# boilerplate-esm2022-typescript
 
 ## Dependencies
 
